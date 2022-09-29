@@ -1,0 +1,64 @@
+button{
+    cursor: pointer;
+    margin-left:23%;
+    position:absolute;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: none;
+    background-color: aqua;
+    box-shadow: -5px 10px 10px rgb(15, 5, 156);
+    transition: all 0.4s ease-in;
+
+  }
+
+  button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  button:hover{
+    background-color: rgb(168, 20, 173);
+    padding:  15px;
+    margin-left: 22% ;
+  }
+
+  #container{
+    background-image: url(vectoriell.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px;
+    margin: 80px 200px;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+
+  }
+  
+  blockquote {
+    margin-top: 10px;
+    max-width:60%;
+    height:70px;
+    margin-left:20%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:100px 5px;
+    background: #80bfff;
+    text-align:center;
+    cursor: pointer;
+    box-shadow: -10px 20px 20px rgb(5, 46, 156);
+  }
+  #quotes{
+    font-size: large;
+  }
+ 
+
+  blockquote:hover{
+    background-color: aquamarine;
+  }
+  body {
+    background:#6673e5;
+  }
+  
+  
